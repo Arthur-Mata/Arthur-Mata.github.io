@@ -1,0 +1,50 @@
+header{
+    height: 440px;
+    background-image: url(https://i.gifer.com/U1qz.gif);
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+header.header-title{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 440px;
+    font-size: 38px;
+}
+
+
+.titulo_main{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 440px;
+    font-size: 38px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+/* class */
+.titulo {
+    color: aqua;
+    text-align: center;
+}
+
+.footer_photo {
+    color: aquamarine;
+}
+
+.titulo_main {
+    color: beige;
+    text-align: center;
+}
+
+.inicio {
+    text-align: center;
+    color: antiquewhite;
+}
