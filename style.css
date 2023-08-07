@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
 header{
-    height: 440px;
+    height: 550px;
     background-image: url(https://i.gifer.com/U1qz.gif);
     background-size: cover;
     text-align: center;
@@ -23,28 +29,48 @@ header.header-title{
     font-size: 38px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: grey;
-}
+
 
 /* class */
 .titulo {
     color: aqua;
     text-align: center;
+    list-style: none;
+    font-size: 20px;
 }
 
 .footer_photo {
     color: aquamarine;
 }
 
-.titulo_main {
-    color: beige;
-    text-align: center;
-}
 
 .inicio {
     text-align: center;
     color: antiquewhite;
+}
+
+/* Zona de links de Header */
+
+.main-nav{
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgba(216, 216, 216, 0.452);
+    text-align: center;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color:rgb(255, 255, 255);
+    padding: 0;
+    border-radius: 2px;
+    text-decoration:double;
+    background-color: blue;
+}
+.main-nav__item a:hover {
+    color: rgb(214, 176, 81);
+}
+.main-nav__item a:active {
+    color: red;
 }
