@@ -1,15 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+main {
+    width: fit-content;
+    height: 100px;
+   
+}
+
+
 body {
-    margin: 0;
-    padding: 0;
     background-color: grey;
+    margin: 0%;
+    padding: 0%;
 }
 
 header{
-    height: 550px;
+    height: 548px;
     background-image: url(https://i.gifer.com/U1qz.gif);
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
 }
 
 header.header-title{
@@ -31,7 +45,37 @@ header.header-title{
 
 
 
-/* class */
+/* Zona de links de Header */
+
+.main-nav{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 21px;
+}
+.main-nav__item {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main-nav__item a {
+    color:rgb(255, 255, 255);
+    padding:0%;
+    border-radius: 0%;
+    text-decoration:double;
+    background-color: blue;
+}
+.main-nav__item a:hover {
+    color: rgb(214, 176, 81);
+}
+.main-nav__item a:active {
+    color: red;
+}
+
+
+/* class de contenido main */
 .titulo {
     color: aqua;
     text-align: center;
@@ -47,30 +91,4 @@ header.header-title{
 .inicio {
     text-align: center;
     color: antiquewhite;
-}
-
-/* Zona de links de Header */
-
-.main-nav{
-    margin-top: 0;
-    list-style: none;
-    padding-left: 0;
-    background-color: rgba(216, 216, 216, 0.452);
-    text-align: center;
-}
-.main-nav__item {
-    display: inline-block;
-}
-.main-nav__item a {
-    color:rgb(255, 255, 255);
-    padding: 0;
-    border-radius: 2px;
-    text-decoration:double;
-    background-color: blue;
-}
-.main-nav__item a:hover {
-    color: rgb(214, 176, 81);
-}
-.main-nav__item a:active {
-    color: red;
 }
