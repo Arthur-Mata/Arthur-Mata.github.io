@@ -14,7 +14,7 @@ body {
 
 header{
     height: 550px;
-    background-image: url(https://64.media.tumblr.com/cdb74ab0f73121beabc7995250afa530/de116c7f2099d1fc-35/s540x810/293f2b33d2dd957797dade8f571160df1ca0ae25.gifv);
+    background-image: url(https://fondosanimados.com/wp-content/uploads/2023/04/pixel-art-1.jpg);
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
@@ -24,12 +24,12 @@ header{
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
     font-weight: bold;
-    line-height: 520px;
-    font-size: 38px;
+    line-height: 523px;
+    font-size: 50px;
 }
 
 
-/* Barra de navegación menú */
+/* Main navegation bar */
 
 .main-nav{
     margin: 0;
@@ -37,7 +37,7 @@ header{
     padding-bottom: 0px;
     background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
-    font-size: 21px;
+    font-size: 15px;
 }
 .main-nav__item {
     display: inline-block;
