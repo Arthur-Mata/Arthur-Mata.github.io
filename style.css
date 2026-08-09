@@ -13,8 +13,8 @@ body {
 }
 
 header{
-    height: 550px;
-    background-image: url(https://fondosanimados.com/wp-content/uploads/2023/04/pixel-art-1.jpg);
+    height: px;
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBuYnhhOGgwNzBybW55dTh2MzNtdm9weGU1ZXIxamlrMXg5NWJoMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lbcLMX9B6sTsGjUmS3/giphy.gif);
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
@@ -24,8 +24,8 @@ header{
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
     font-weight: bold;
-    line-height: 523px;
-    font-size: 50px;
+    line-height: 525px;
+    font-size: 180px;
 }
 
 
@@ -36,7 +36,7 @@ header{
     list-style: none;
     padding-bottom: 0px;
     background-color: rgba(0, 0, 0, 0.6);
-    text-align: center;
+    text-align: right;
     font-size: 15px;
 }
 .main-nav__item {
@@ -59,14 +59,14 @@ header{
 
 /* Contenido de imágenes y lista en general */
 .titulo {
-    color: aqua;
+    color: rgba(0, 0, 0, 0.996);
     text-align: center;
     list-style: none;
     font-size: 20px;
 }
 
 .footer_photo {
-    color: aquamarine;
+    color: rgba(19, 93, 203, 0.99);
 }
 
 
