@@ -9,12 +9,26 @@ html{
 }
 
 body {
-    background-color: grey;
+   body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #001f3f, #003366, #001a33);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
 }
 
 header{
     height: px;
-    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXBuYnhhOGgwNzBybW55dTh2MzNtdm9weGU1ZXIxamlrMXg5NWJoMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lbcLMX9B6sTsGjUmS3/giphy.gif);
+    background-image: url();
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
