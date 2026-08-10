@@ -54,14 +54,33 @@ header {
 }
 
 .titulo_main {
-    background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     font-weight: bold;
-    font-size: 60px;
-    padding: 40px 0;
-    line-height: normal;
+    font-size: 80px;
+    padding: 60px 0 40px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
+
+/* Efecto holograma */
+.titulo_main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+    animation: holograma 0s infinite;
+}
+
+@keyframes holograma {
+    0% { left: -100%; }
+    50% { left: 100%; }
+    100% { left: 100%; }
+}
+
 
 /* Navegación */
 .main-nav {
